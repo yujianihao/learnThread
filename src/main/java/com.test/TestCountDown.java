@@ -1,6 +1,4 @@
-package com.uas.platform.b2c.javase.collection;
-
-import org.junit.Test;
+package main.java.com.test;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
@@ -11,7 +9,6 @@ import java.util.concurrent.CountDownLatch;
  */
 public class TestCountDown {
 
-    @Test
     public void testCountDown() {
         int threadNum = 10;
         final CountDownLatch countDownLatch = new CountDownLatch(threadNum);
