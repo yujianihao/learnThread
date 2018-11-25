@@ -8,6 +8,7 @@ import java.util.concurrent.Semaphore;
  */
 public class Customer implements Runnable {
 
+
     private Integer resource = 1;
 
     private Integer name;
